@@ -277,7 +277,7 @@ function plotBubble(listOfObjects,maxReviewCounts,author,overalMAxYear,overalMin
 
 function plotDonutChart(proportionQ,author,minY,MaxY){
   //plot the donut chart, using pie chart approach but with the hole defined
-  let pieDiv = document.getElementById("doughnutBubbleChart");
+  let pieDiv = document.getElementById("doughnutChart");
   let values = proportionQ.values;
   let names = proportionQ.categoryNames;
   let years = proportionQ.publicationYears;
@@ -292,7 +292,7 @@ function plotDonutChart(proportionQ,author,minY,MaxY){
   }
   let texthint=[];
   for (let i=0; i<yearsToPlot.length;i++){
-    texthint[i]=`Year of Publication: starting ${yearsToPlot[i][0]} with ${yearsToPlot[i][1]} latest`
+    texthint[i]=`Years of Publication: starting ${yearsToPlot[i][0]} with ${yearsToPlot[i][1]} latest`
     if (yearsToPlot[i][0]==yearsToPlot[i][1]){
       texthint[i]=`The only Year of Publication ${yearsToPlot[i][0]}`
     }
@@ -420,6 +420,11 @@ function plotChartJS (authorAvgRCount,metric) {
   }
 
 
+  function plotBarChart(proportionQ, author, minY, maxY) {
+    // Target the correct div for the bar chart
+    
+  }
+
 //Define the API endpoint
 let merged = '/api/v1.0/merged';
 
@@ -491,12 +496,31 @@ d3.json(merged).then(function(data){
     d3.selectAll("input[name='chart']").on("change", function() {
       var selectedChart = this.value;
       if (selectedChart == "doughnutChart") {
+        // Display the two-column layout for High Level Distribution
+        document.getElementById('highLevelDistributionSection').style.display = 'flex'; 
+        // but hide other chart
+        document.getElementById('doughnutBubbleChart').style.display = 'none';
+
         plotDonutChart(proportionQ, author, minY, maxY);
+        plotBarChart(proportionQ, author, minY, maxY);
       } else if (selectedChart == "bubbleChart") {
+        // Hide the two-column layout when other options are selected
+        document.getElementById('highLevelDistributionSection').style.display = 'none';
+        // and show the bubble chart
+        document.getElementById('doughnutBubbleChart').style.display = 'block';
+
         plotBubble(AuthorBookTPACListOfObjects, maxReviewCounts,author,maxOverallYear,minOverallYear);
       }
 
     });
+
+    ///???????  
+
+    // ensure correct display based on the default selected radio button
+    d3.select("input[name='chart']:checked").dispatch("change");
+
+    ////???????
+
 
     //plot a bubble chart initially
     plotBubble(AuthorBookTPACListOfObjects, maxReviewCounts,author,maxOverallYear,minOverallYear);
