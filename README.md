@@ -17,10 +17,10 @@ Here we have four areas:
 <p align="center">
 <img src="https://github.com/ValentynaK17/Project3/blob/main/Visuals/DefaultView.png" width=“275">
 </p>
-Switching to the High-Level Distribution, represents the distribution by quadrants to provide a 'bird’s eye view' of the author's overall reader engagement. <br><br>
+Switching to the High-Level Distribution, represents the distribution by quadrants to provide a 'bird’s eye view' of the author's overall reader engagement and insights per publcation year. <br><br>
 
 <p align="center">
-<img src="https://github.com/ValentynaK17/Project3/blob/main/Visuals/BirdsView.png" width=“275">
+<img src="https://github.com/ValentynaK17/Project3/blob/main/Visuals/HighLevelDistributions.png" width=“275">
 </p>
 
 ### Installation
