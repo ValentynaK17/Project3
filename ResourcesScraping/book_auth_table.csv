@@ -1,0 +1,527 @@
+book_id,author,auth_book_ID
+0,Ikhwan al-Safa,1
+0,Rabbi Dan Bridge,2
+0,Rabbi Kalonymus,3
+2,Christopher Melchert,4
+3,Muhammad Ibn Ishaq Ibn Al-Nadim,5
+3,Ibn Al-Nadim,6
+3,Bayard Dodge,7
+4,Morris Rossabi,8
+5,Մատթեոս Ուռհայեցի (Matthew of Edessa),9
+5,Grigor Erētsʻ,10
+5,Ara Edmond Dostourian,11
+6,Francine Herail,12
+6,Wendy Cobcroft,13
+7,Alexandru Madgearu,14
+8,Paul Lemerle,15
+8,Helen Lindsay,16
+8,Ann Moffatt,17
+9,George Everard Kidder Smith,18
+10,Dimitri Gutas,19
+11,Books LLC,20
+12,Anonymous Persian Author of Late 10th Early 11th Century,21
+13,Aaron ben Moses active 10th century. Ben-Asher,22
+14,Adam Mez,23
+15,Abd Allah ibn Abd al-Rahman active 10th century. Ibn Abi Zayd al-Qayrawani,24
+16,Jantje Engelina Bazuin,25
+16,Amr Osman,26
+16,Rendtorff,27
+17,Georgios Theotokis,28
+18,active 10th century. Hassan bar Bahlul,29
+19,Anne Hart,30
+20,Philip Grierson,31
+20,Mark Blackburn,32
+21,Iuliia Stepanova,33
+22,Douglas B. Price,34
+22,Neil J. Twombly,35
+23,Paolo Malanima,36
+24,Patrick Wertmann,37
+25,Tomáš Petráček,38
+26,Source Wikipedia,39
+27,Nico Kaptein,40
+28,Feng Menglong,41
+28,Yang Xianyi,42
+28,Gladys Yang,43
+29,Sacha Stern,44
+30,Silviu Ota,45
+31,Krikor Naregatzi,46
+32,John Guy,47
+33,Riccardo Zipoli,48
+34,Dylan Esler,49
+35,Przemysław Urbańczyk,50
+36,Dorothy Whitelock,51
+37,Neil Christie,52
+37,Hajnalka Herold,53
+38,Alain Delattre,54
+38,Marie Legendre,55
+38,Petra Sijpesteijn,56
+39,Hala,57
+40,Harriet O'Brien,58
+41,Hugh Kennedy,59
+42,Judith A. Green,60
+43,Avicenna,61
+44,Eileen Stephenson,62
+45,André Wink,63
+46,David Nicolle,64
+46,Angus McBride,65
+47,Mikhail Zhirohov,66
+47,David Nicolle,67
+47,Christa Hook,68
+49,Angus Konstam,69
+50,11th Century] King Bhojara?ja of Malwa,70
+51,John Julius Norwich,71
+52,Francine Herail,72
+52,Wendy Cobcroft,73
+53,Johnny Stonborough,74
+54,Lucille Chia,75
+55,Julie Ferris,76
+56,Ann K.S. Lambton,77
+57,Simon Beaufort,78
+58,Stefan Sperl,79
+59,Zsuzsanna Gulacsi,80
+60,Robert Nixon,81
+62,King of Malwa active 11th century. Bhojaraja,82
+63,Active 11th Century Ibn Gabirol,83
+65,Anonymous Persian Author of Late 10th Early 11th Century,84
+66,King of Malwa active 11th century. Bhojaraja,85
+67,11th century Kemarja Rjnaka,86
+68,Éva M. Jeremiás,87
+69,Stanislaw Rosik,88
+70,I. Hrbek,89
+71,L Foschia,90
+71,C. Nemo-Pekelman,91
+71,John V. Tolan,92
+72,Bakirtzis,93
+72,Charalambos,94
+72,Kourkoutidou-Nikolaidou,95
+73,Professor Robert Elsie,96
+74,Eleanor J. Turnbull,97
+75,Lady Sarashina,98
+75,Murasaki Shikibu,99
+75,Izumi Shikibu,100
+76,Morten Ravn,101
+77,Charles River Editors,102
+78,Sarashina,103
+79,Ahmad Nazmi,104
+79,Janusz Danecki,105
+80,Upinder Singh,106
+81,T.H. White,107
+82,Zena Halpern,108
+83,Stephen Miller,109
+83,Paul Gordon Schalow,110
+84,Bernard McGinn,111
+85,Florence L. Barclay,112
+86,David Pryce,113
+87,Jean Bony,114
+88,Paula R. Stiles,115
+89,Charles River Editors,116
+90,The feudal history of the county of Derby : (chiefly during the 11th 12th and 13th centuries) by Joh,117
+90,The feudal history of the county of Derby : (chiefly during the 11th 12th and 13th centuries) by Joh,118
+91,Julian Humphrys,119
+92,Joyce DiPastena,120
+93,Malcolm Barber,121
+93,Keith Bate,122
+94,Othniel J. Seiden,123
+95,Paul Thanasingh,124
+95,John William,125
+96,Mr Ibn Khalikan 12th century scholar from Erbil / KRG Ibn Khalikan,126
+97,Thierry Gosset,127
+98,Linda Lee Smith,128
+98,Ben Wright,129
+99,The feudal history of the county of Derby : (chiefly during the 11th 12th and 13th centuries) by Joh,130
+99,The feudal history of the county of Derby : (chiefly during the 11th 12th and 13th centuries) by Joh,131
+100,Մատթեոս Ուռհայեցի (Matthew of Edessa),132
+100,Grigor Erētsʻ,133
+100,Ara Edmond Dostourian,134
+101,Marìa Bullòn-Fernandez,135
+102,C. Warren Hollister,136
+102,Eva Matthews Sanford,137
+102,Bryce Lyon,138
+103,James Burge,139
+104,Barry Unsworth,140
+105,Simon Beaufort,141
+106,Jaihiun J. Kim,142
+107,Alexandru Madgearu,143
+108,Leslie A. Sconduto,144
+109,Attar of Nishapur,145
+109,Rustom Masani,146
+109,Edward FitzGerald,147
+110,Burhan Al-Din Active 12Th Century-13Th Century Zarnuji,148
+111,(12th century) SCHOTA RUSTAWELI,149
+112,Hugo 12th century Falcandus,150
+113,Ron Peeleman,151
+113,Linda Peeleman,152
+114,K. Parvathi Kumar,153
+115,Susan L. Huntington,154
+115,John C. Huntington,155
+116,Ha-Levi active 12th century Judah,156
+116,Emil Bernhard,157
+117,Gary Neal Hansen,158
+118,Geoffroy Active 12th Century Gaimar,159
+119,Traditional 12th Century Hymn,160
+120,Jean Delumeau,161
+121,Amir Khusrau,162
+121,Habibuddin Ahmed,163
+122,John Traphagan,164
+122,Amane Kaneko,165
+122,John W. Traphagan,166
+123,B.J. Terwiel,167
+124,Hélène Jawhara Piñer,168
+125,Grigol Abashidze,169
+125,Sergei Sosinsky,170
+125,Natalya Yarosh,171
+126,David Nicolle,172
+126,Gerry Embleton,173
+127,Jean Bony,174
+128,Paula R. Stiles,175
+129,Christine Isom-Verhaaren,176
+129,Kent F. Schull,177
+130,Enid A. Goldberg,178
+130,Norman Itzkowitz,179
+131,Ibn Iftikhar,180
+132,Joyce DiPastena,181
+133,Margaret Evans Price,182
+134,Ian Ross,183
+135,Malcolm Barber,184
+135,Keith Bate,185
+136,D. Fairchild Ruggles,186
+137,The feudal history of the county of Derby : (chiefly during the 11th 12th and 13th centuries) by Joh,187
+137,The feudal history of the county of Derby : (chiefly during the 11th 12th and 13th centuries) by Joh,188
+138,Aruna Mapalagamage,189
+138,Rumi (Jalal ad-Din Muhammad ar-Rumi),190
+139,The feudal history of the county of Derby : (chiefly during the 11th 12th and 13th centuries) by Joh,191
+139,The feudal history of the county of Derby : (chiefly during the 11th 12th and 13th centuries) by Joh,192
+141,13th-Century Trouvére of Arras Jehan Erart,193
+142,Charles River Editors,194
+143,Richard Peterson,195
+144,Kate A. Boorman,196
+145,Gerard Clauson,197
+146,Claude Jacques,198
+147,Colleen Manassa Darnell,199
+148,David Chaim Smith,200
+149,Seth C. Rasmussen,201
+151,Wolfgang Reinhard,202
+152,13th Century Me Wernher Der Gartenre,203
+152,Clair Hayden Bell,204
+152,Hartmann von Aue,205
+153,Moshe Idel,206
+153,Mortimer Ostow,207
+153,Ivan G. Marcus,208
+154,Jean-Charles-Léonard Simonde de Sismondi,209
+155,Richard Bonney,210
+156,Peter Adamson,211
+156,Fedor Benevich,212
+157,James Walsh,213
+158,Vasily Yan,214
+158,Vasilli G. Yan,215
+158,L. Britton,216
+159,Frank J. Schmalleger,217
+160,Barbara W. Tuchman,218
+161,William Rosen,219
+162,Barbara W. Tuchman,220
+162,Nadia May,221
+163,G.A. Henty,222
+164,Roger Chartier,223
+165,Mary G. Houston,224
+166,Amir Khusrau,225
+166,Habibuddin Ahmed,226
+167,Laurie Schneider Adams,227
+168,Barbara W. Tuchman,228
+169,Brian R. Price,229
+170,Shiwu Qinggong,230
+170,Stonehouse,231
+170,Red Pine,232
+171,Carthusian Monks of the 14th-17th Centuries,233
+172,Edward A. Allworth,234
+173,David Nicolle,235
+174,Stephen Biesty,236
+175,Claire d'Harcourt,237
+176,Anonymous,238
+177,Samuel Astley Dunham,239
+178,Richard E. Zeikowitz,240
+179,Esther Benbassa,241
+179,Aron Rodrigue,242
+180,Odorico da Pordenone,243
+181,Anonymous,244
+181,Ira Progoff,245
+182,James Snyder,246
+183,BookRags.com,247
+184,André Wink,248
+185,Wen C. Fong,249
+186,John Mandeville,250
+187,Irina L. Kyzlasova,251
+187,Sergei Volynets,252
+188,Morris Rossabi,253
+189,Steven Muhlberger,254
+190,Catherine Darby,255
+191,David Tuffley,256
+192,Thierry Gosset,257
+193,David Goudsward,258
+193,Robert E. Stone,259
+194,Ross E. Dunn,260
+195,SNYDER/JAMES,261
+196,Ian V. Hogg,262
+197,Felicitas Opwis,263
+198,Francis G. Gentry,264
+199,David G. Marr,265
+199,A.C. Milner,266
+199,Wang Gungwu,267
+200,Fernand Braudel,268
+201,Abraham von Worms,269
+201,S.L. MacGregor Mathers,270
+202,Fernand Braudel,271
+203,Fernand Braudel,272
+203,Sian Reynold,273
+204,John Gillingham,274
+205,Mary G. Houston,275
+206,Ginger Myrick,276
+207,Anna Escardó,277
+207,Julius Wiedemann,278
+208,Frank Trentmann,279
+209,David Nicolle,280
+209,Angus McBride,281
+210,Helen Craig McCullough,282
+211,David Nicolle,283
+212,Stephen Berg,284
+213,Heinrich Wittenwiler,285
+213,Anonymous,286
+213,George Fenwick Jones,287
+214,John Laband,288
+215,David Nicolle,289
+215,Gerry Embleton,290
+216,Michael Baxandall,291
+217,Gerry Embleton,292
+217,John Howe,293
+218,Kabir Kabir,294
+218,Kabir,295
+219,André Wink,296
+220,Frank J. Swetz,297
+221,Angus Konstam,298
+221,Gerry Embleton,299
+222,Lorne Campbell,300
+223,Christina Hallowell Garrett,301
+224,Irving Stone,302
+225,Elizabeth Benns,303
+225,Gina Barrett,304
+226,Pauquet Freres,305
+227,Christine Jordan,306
+228,Barbara Borngässer,307
+228,Rolf Toman,308
+229,Fillipo Vadi,309
+229,Luca Porzio,310
+229,Gregory D. Mele,311
+230,David Lee Schoenbrun,312
+231,Rose-Marie Hagen,313
+232,Neil Rosenstein,314
+233,Marìa Bullòn-Fernandez,315
+234,Matteo Guarnaccia,316
+235,Jessica Finley,317
+236,Karen Bauer,318
+237,John H. Parry,319
+238,M. Ishaq Khan,320
+239,Lisa Golombek,321
+239,Maria E. Subtelny,322
+240,Kevin DeYoung,323
+241,Immanuel Wallerstein,324
+242,Laura Morelli,325
+243,Rozsa Gaston,326
+243,Géza Von Habsburg,327
+243,Susan Abernethy,328
+244,Thomas George Percival Spear,329
+245,C.L.R. Peterson,330
+246,Laura Morelli,331
+247,Kathryn Senior,332
+247,David Salariya,333
+247,David Antram,334
+248,Hugh R. Trevor-Roper,335
+249,Robert Muchembled,336
+249,David Fernbach,337
+250,D.J. Enright,338
+251,Martin Luther,339
+251,Archie Parrish,340
+252,Adolphus William Ward,341
+252,Martin Andrew Sharp Hume,342
+253,Steven E. Ozment,343
+254,Syed Muhammad Naquib al-Attas,344
+255,Douglas F. Kelly,345
+256,David B. Ruderman,346
+257,K.C. Kanda,347
+258,Adolphus William Ward,348
+258,Martin Andrew Sharp Hume,349
+259,Gerolamo Cardano,350
+259,Samuel S. Wilks,351
+259,Sydney Henry Gould,352
+260,Jean-Pierre Isbouts,353
+260,Christopher Brown,354
+261,John F. Guilmartin Jr.,355
+262,Eric Ives,356
+263,Isaac Donoso,357
+263,Ma. Luisa García,358
+263,Carlos Quirino,359
+264,Kathy Lynn Emerson,360
+265,Drea Leed,361
+266,Garfield Gini-Newman,362
+267,Adolphus William Ward,363
+267,Martin Andrew Sharp Hume,364
+268,G. Ernest Smith,365
+269,Kevin Klein,366
+271,AMORC,367
+272,Saiyid Athar Abbas Rizvi,368
+273,William Ledyard Rodgers,369
+274,William J Federer,370
+275,Noel Malcolm,371
+276,Ángel Flores,372
+277,Viacheslav Shpakovsky,373
+278,Rose-Marie Hagen,374
+278,Rainer Hagen,375
+278,Iain Galbraith,376
+279,Jonathan Moorhead,377
+280,Avril Hart,378
+280,Susan North,379
+281,Gerald Horne,380
+282,Saikaku Ihara,381
+282,William Theodore de Bary,382
+283,Amanda Hughes,383
+284,Adrian Tinniswood,384
+285,Diz White,385
+285,Randall Montgomery,386
+286,Amanda Hughes,387
+287,Sheilah Roberts,388
+288,Kate Braithwaite,389
+289,Angie Mangino,390
+290,Karen Charbonneau,391
+291,Rajmohan Gandhi,392
+292,Miriam Cyr,393
+293,Alan Charles Kors,394
+294,Hugh R. Trevor-Roper,395
+295,Paul Engle,396
+296,Christopher Hill,397
+297,S.G. MacLean,398
+298,Johann Valentin Andreae,399
+298,Felix Emil Held,400
+299,Giovanni Pietro Olina,401
+299,Cassiano Dal Pozzo,402
+299,Helen Macdonald,403
+300,William R. Reynolds Jr.,404
+301,Annelisa Christensen,405
+302,Julie Lipson,406
+302,Po Chung-Ling,407
+302,Pu Songling,408
+303,David Rankine,409
+303,Paul Harry Barron,410
+304,Laura Gowing,411
+305,David Rankine,412
+306,Amanda Hughes,413
+307,Gilles Néret,414
+308,Carthusian Monks of the 14th-17th Centuries,415
+309,Sally M. Walker,416
+310,Sylvia Perrini,417
+311,Hal Leonard Corp.,418
+312,Charles River Editors,419
+313,Susan North,420
+313,Jenny Tiramani,421
+313,Melanie Braun,422
+314,J.H. Hunter,423
+315,Natori Masazumi,424
+315,Axel Mazuer,425
+316,Guy Windsor,426
+317,David Brandon,427
+318,G.H.R. Parkinson,428
+319,AMORC,429
+320,Scott C. Patchan,430
+321,Scott C. Patchan,431
+322,Brandon H. Beck,432
+322,John L Heatwole,433
+322,William J. Miller,434
+323,Mark A. Snell,435
+324,Mark Lardas,436
+325,Scott C. Patchan,437
+326,Thomas A. Lewis,438
+327,Gary W. Gallagher,439
+328,Scott C. Patchan,440
+329,Daniel T. Davis,441
+329,Phillip S. Greenwalt,442
+330,Charles R. Knight,443
+331,Jeffry D. Wert,444
+332,Mark Lardas,445
+332,Adam Hook,446
+333,Gary W. Gallagher,447
+333,Dennis E. Frye,448
+333,A. Wilson Greene,449
+334,George E. Pond,450
+335,Adolfo Ovies,451
+336,Gary W. Gallagher,452
+337,U.S. Department of Defense,453
+338,Alexander Neil,454
+338,Richard R. Duncan,455
+339,Raymond K. Bluhm,456
+339,U.S. Army Center of Military History,457
+341,Francis H. Buffum,458
+342,U. S. Government Clifton Melvin Nichols,459
+343,unknown author,460
+344,unknown author,461
+345,Heidi C. Eads Jones,462
+346,unknown author,463
+347,Raymond K. Bluhm Jr.,464
+349,Francis H. Buffum,465
+351,Various,466
+352,John Henry Anderson,467
+353,Military Historical Society of Massachusetts,468
+354,Military Historical Society of Massachus,469
+355,George E. Pond,470
+356,George E. Pond,471
+357,unknown author,472
+358,Herbert E Hill,473
+359,Francis H. Buffum,474
+360,Fernand Braudel,475
+361,Avril Hart,476
+361,Susan North,477
+362,Amanda Hughes,478
+363,George Lakoff,479
+364,Amanda Hughes,480
+365,Fernand Braudel,481
+366,Andrea di Robilant,482
+367,Fernand Braudel,483
+367,Sian Reynold,484
+368,Lauren Stowell,485
+368,Abby Cox,486
+369,Neil Postman,487
+370,Alain Corbin,488
+370,Susan Pickford,489
+371,Roy Porter,490
+372,Lauren Stowell,491
+372,Abby Cox,492
+373,Amanda Hughes,493
+374,Mimi Matthews,494
+375,Jim Williams,495
+376,Penelope J. Corfield,496
+377,Shannon McNear,497
+377,Angela K. Couch,498
+377,Carla Gade,499
+378,Roger Chartier,500
+379,Sophia Lee,501
+380,Gail Marsh,502
+381,Bella Bathurst,503
+382,Alan Charles Kors,504
+383,Emanuel Swedenborg,505
+383,Kenneth Ring,506
+383,Emanual Swedenborg,507
+384,Jean Delumeau,508
+385,Serena Dyer,509
+386,Susan North,510
+387,Terry Melanson,511
+388,Azie Dungey,512
+389,Kirstin Olsen,513
+390,Mark Fiddes,514
+391,Baisao,515
+391,Norman Waddell,516
+392,Faith Cook,517
+393,William R. Reynolds Jr.,518
+394,Siân Rees,519
+395,David Damrosch,520
+396,Douglas F. Kelly,521
+397,Charlotte Lennox,522
+397,Ruth Perry,523
+397,Susan Carlile,524
+398,Mike Rendell,525
+399,Wesley Greene,526

@@ -129,6 +129,45 @@ function groupQuadrants(listOfObj,maxReviewCounts){
   }
 }
 
+
+function groupQuadrantsYear(listOfObj,maxReviewCounts){
+  // create a dictionary of dictionaries with number of author's book per each year of publication and defined category,
+  // which are quadrants: 
+  let quadrants = {
+    'grey': {}, // No Reviews
+    'red': {}, // Q1: avgScore<5, ReviewsCount<maxReviewCounts/2
+    'orange': {}, // Q2: avgScore>=5, ReviewsCount<maxReviewCounts/2
+    'yellow': {}, // Q3: avgScore<5, ReviewsCount>=maxReviewCounts/2
+    'green': {} // Q4: avgScore>=5, ReviewsCount>=maxReviewCounts/2
+  };
+
+  listOfObj.forEach(obj => {
+    let year = obj.YearOfPublication;
+    let qKey = '';
+
+    if (obj.reviewsCount === 0) {
+      qKey = 'grey';
+    } else if (obj.avrScore < 5 && obj.reviewsCount < maxReviewCounts / 2) {
+      qKey = 'red';
+    } else if (obj.avrScore >= 5 && obj.reviewsCount < maxReviewCounts / 2) {
+      qKey = 'orange';
+    } else if (obj.avrScore < 5 && obj.reviewsCount >= maxReviewCounts / 2) {
+      qKey = 'yellow';
+    } else if (obj.avrScore >= 5 && obj.reviewsCount >= maxReviewCounts / 2) {
+      qKey = 'green';
+    }
+
+    if (!quadrants[qKey][year]) {
+      quadrants[qKey][year] = 1;
+    } else {
+      quadrants[qKey][year] += 1;
+    }
+  });
+
+  return quadrants;
+}
+
+
 function plotBubble(listOfObjects,maxReviewCounts,author,overalMAxYear,overalMinYear){
   // plot the bubble chart
   let yearOfPublicationList=listOfObjects.map(item => item.YearOfPublication);
@@ -316,10 +355,12 @@ function plotDonutChart(proportionQ,author,minY,MaxY){
 
   let data = [traceA];
 
-  let titletext=`<b>Distribution by Reader Engagement for ${author}</b> <br>Years of Publication: ${minY}-${MaxY}`;
-  if (minY==MaxY){
-    titletext=`<b>Distribution by Reader Engagement for ${author}</b> <br>Year of Publication: ${minY}`
-  }
+  // let titletext=`<b>Distribution by Reader Engagement for ${author}</b> <br>Years of Publication: ${minY}-${MaxY}`;
+  // if (minY==MaxY){
+  //   titletext=`<b>Distribution by Reader Engagement for ${author}</b> <br>Year of Publication: ${minY}`
+  // }
+  let titletext=`<b>Distribution by Reader Engagement for ${author}</b>`;
+ 
 
   let holeText=`Total of<br><b>${wholeBooks}</b><br>books`
   if (wholeBooks==1){
@@ -420,8 +461,103 @@ function plotChartJS (authorAvgRCount,metric) {
   }
 
 
-  function plotBarChart(proportionQ, author, minY, maxY) {
-    // Target the correct div for the bar chart
+  function plotBarChart(proportionQY, author, minY, maxY) {
+    console.log(proportionQY)
+    let data=[];
+    // Select the proper div for a bar chart
+    let barDiv = document.getElementById("barChart");
+    // Data trace for grey area
+    if (proportionQY['grey']!={}){
+      let years_gr=Object.keys(proportionQY['grey']);
+      let f=years_gr.map(year => proportionQY['grey'][year])
+      let trace_grey = {
+        x: years_gr,
+        y: f,
+        type: 'bar',
+        marker: {
+          color: doughnutChartColors[0]
+        }
+      };
+      data.push(trace_grey);
+    }
+
+    // Data trace for red area
+    if (proportionQY['red']!={}){
+      let years_r=Object.keys(proportionQY['red']);
+      let trace_red = {
+        x: years_r,
+        y: years_r.map(year => proportionQY['red'][year]),
+        type: 'bar',
+        marker: {
+          color: doughnutChartColors[1]
+        }
+      };
+      data.push(trace_red);
+    };
+
+    // Data trace for orange area
+    if (proportionQY['orange']!={}){
+      let years_o=Object.keys(proportionQY['orange']);
+      let trace_orange = {
+        x: years_o,
+        y: years_o.map(year => proportionQY['orange'][year]),
+        type: 'bar',
+        marker: {
+          color: doughnutChartColors[2]
+        }
+      };
+      data.push(trace_orange);
+    };
+
+    // Data trace for yellow area
+    if (proportionQY['yellow']!={}){
+      let years_y=Object.keys(proportionQY['yellow']);
+      let trace_yellow = {
+        x: years_y,
+        y: years_y.map(year => proportionQY['yellow'][year]),
+        type: 'bar',
+        marker: {
+          color: doughnutChartColors[3]
+        }
+      };
+      data.push(trace_yellow);
+    };
+
+    // Data trace for green area
+    if (proportionQY['green']!={}){
+      let years_g=Object.keys(proportionQY['green']);
+      let trace_green = {
+        x: years_g,
+        y: years_g.map(year => proportionQY['green'][year]),
+        type: 'bar',
+        marker: {
+          color: doughnutChartColors[4]
+        }
+      };
+      data.push(trace_green);
+    };
+
+
+    let titletext_bar=`<b>Engagement by Years Of Publication</b>`;
+
+    // Define the layout for the bar chart
+    let layout = {
+      title: {
+        text:titletext_bar,
+        font: titleFont},
+      barmode: 'stack', 
+      xaxis: {
+        title: 'Year(s) Of Publication'
+      },
+      yaxis: {
+        title: 'Books Count'
+      },
+      margin: {r: 30},
+      showlegend: false
+    };
+
+    // Plot the chart
+    Plotly.newPlot(barDiv, data, layout);
     
   }
 
@@ -491,6 +627,7 @@ d3.json(merged).then(function(data){
     let proportionQ=groupQuadrants(AuthorBookTPACListOfObjects,maxReviewCounts)
     let minY=Math.min(...AuthorBookTPACListOfObjects.map(item=>item.YearOfPublication));
     let maxY=Math.max(...AuthorBookTPACListOfObjects.map(item=>item.YearOfPublication));
+    let propQuadrantsYear=groupQuadrantsYear(AuthorBookTPACListOfObjects,maxReviewCounts)
 
        // Listen for radio button changes
     d3.selectAll("input[name='chart']").on("change", function() {
@@ -502,7 +639,7 @@ d3.json(merged).then(function(data){
         document.getElementById('doughnutBubbleChart').style.display = 'none';
 
         plotDonutChart(proportionQ, author, minY, maxY);
-        plotBarChart(proportionQ, author, minY, maxY);
+        plotBarChart(propQuadrantsYear, author, minY, maxY);
       } else if (selectedChart == "bubbleChart") {
         // Hide the two-column layout when other options are selected
         document.getElementById('highLevelDistributionSection').style.display = 'none';
@@ -513,14 +650,9 @@ d3.json(merged).then(function(data){
       }
 
     });
-
-    ///???????  
-
+ 
     // ensure correct display based on the default selected radio button
     d3.select("input[name='chart']:checked").dispatch("change");
-
-    ////???????
-
 
     //plot a bubble chart initially
     plotBubble(AuthorBookTPACListOfObjects, maxReviewCounts,author,maxOverallYear,minOverallYear);
