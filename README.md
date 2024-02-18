@@ -3,7 +3,7 @@ In this project, we are analyzing and visualizing Authors' success based on Book
 Within the dashboard we focused on two main metrics, that we think are the indicators of the author's success: 
  - popularity, represented by how many reviews their books get,
  - quality of engagement, reflected in average ratings score.
-   
+
 That’s why the top part of the dashboard shows a bar chart, which lists the top 10 authors by the total number of reviews. 
 This view allows us to quickly identify which authors are most talked about. <br>
 Additionally, the criteria can be adjusted to discover the top 10 authors based on the average rating score across all their rated books.<br>
@@ -14,7 +14,14 @@ Here we have four areas:
  - *Orange*: these are Contradictory books with many reviews indicating high sales, but still for some reason receive not really great ratings
  - *Yellow*: where the majority of books fall for most of the authors. These are well-rated books that haven't been noticed by as many people yet.
 
-Switching to the High-Level Distribution, represents the distribution by quadrants to provide a 'bird’s eye view' of the author's overall reader engagement.
+<p align="center">
+<img src="https://github.com/ValentynaK17/Project3/blob/main/Visuals/DefaultView.png" width=“275">
+</p>
+Switching to the High-Level Distribution, represents the distribution by quadrants to provide a 'bird’s eye view' of the author's overall reader engagement. <br><br>
+
+<p align="center">
+<img src="https://github.com/ValentynaK17/Project3/blob/main/Visuals/BirdsView.png" width=“275">
+</p>
 
 ### Installation
 The project can be run using following steps:
